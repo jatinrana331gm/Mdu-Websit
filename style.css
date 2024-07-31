@@ -1,0 +1,138 @@
+
+body  {
+    font-size: 100%;
+    justify-content: center;
+    font-size: xx-large;
+    background-color: aqua;
+
+}
+
+.Home-link {
+    color: red;  
+
+
+}
+.Students-link {
+    color:firebrick;
+}
+.About-link {
+    color: orange;
+}
+.Gallery-link {
+    color:coral;
+
+}
+.Notice-link {
+    color:purple;
+}
+.PayFee-link {
+    color: blueviolet;
+}
+.Results-link {
+    color: rgb(34, 178, 65);
+}
+.Admission-link{
+    color: tomato;
+}
+
+
+.navbar {
+    display: flex;
+    position: sticky;
+    align-items: center;
+    justify-content: space-between;
+    top: 0px;
+    background: rgba(0, 0, 0, 0.6) url(
+'https://media.geeksforgeeks.org/wp-content/uploads/20201215124609/Capture-300x14.PNG');
+    background-blend-mode: darken;
+    background-size: cover;
+    color: white;
+    padding: 10px 20px;
+    margin: 10px 20px;
+}
+
+.nav-list {
+    display: flex;
+    list-style: none;
+}
+
+.nav-list li {
+    margin-right: 20px;
+}
+
+.nav-list li:last-child {
+    margin-right: 0;
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    transition: color 0.3s ease-in-out;
+}
+
+.nav-list li a:hover {
+    color: #ffd700;
+    /*Change the color on hover */
+}     
+
+.rightNav {
+    text-align: right;
+}
+
+#search {
+    padding: 8px;
+    font-size: 16px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    counter-increment: inherit;
+}
+
+
+
+Form styling 
+form {
+    margin: 20px auto;
+    max-width: 600px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+}
+
+form label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+ Section and table styling 
+section {
+    margin: 20px;
+}
+
+
+.btn {
+    background-color: #ffd700;
+    color: #000;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.btn:hover {
+    background-color: #000;
+    /*Change the background color on hover */
+}
+contact us{
+    background-color: aqua;
+}
